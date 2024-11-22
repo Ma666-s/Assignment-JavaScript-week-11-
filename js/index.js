@@ -1,11 +1,13 @@
 // Quotes of the day
 
 var quoteOfTheDay ;
+var textsQuotes ;
+var authorsQuotes;
 
 function getQuotes()
 {
     // the Quotes
-    var textsQuotes = [
+     textsQuotes = [
         "“Be yourself; everyone else is already taken.”" ,
         "“So many books, so little time.”",
         "“A room without books is like a body without a soul.”",
@@ -15,7 +17,7 @@ function getQuotes()
     ];
 
     // the Autors
-    var authorsQuotes = ["― Oscar Wilde", "― Frank Zappa", "― Marcus Tullius Cicero", "― Mae West", "― Mahatma Gandhi" , "― Mohamed Saleh"];
+     authorsQuotes = ["― Oscar Wilde", "― Frank Zappa", "― Marcus Tullius Cicero", "― Mae West", "― Mahatma Gandhi" , "― Mohamed Saleh"];
 
 
     quoteOfTheDay = Math.floor(Math.random() * textsQuotes.length);
