@@ -1,0 +1,22 @@
+.container{
+    background-image: linear-gradient(to right bottom, #e3edfb, #d6e7ed, #cfdfde3b, #ccd6d038, #caccc657);
+}
+.borderstyle
+{
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 50% 20% / 10% 40%;
+}
+.quotes {
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: 700;
+}
+
+.fontstyle {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container min-vh-100 min-vw-100">
+        <div class="w-75 my-0 mx-auto d-flex flex-column align-items-center">
+            <h1 class="display-1 fw-lighter mt-5 fontstyle">Quote of the Day</h1>
+            <p class="display-6 my-5">Press the button below to recieve a random quote!</p>
+            <div>
+                <button onclick="getQuotes()" class="btn btn-outline-primary fs-4 p-4 fontstyle borderstyle">New Quote</button>
+            </div>
+            <div class="mt-3">
+                <div id="quotes" class="display-3 quotes">
+
+                </div>
+                <div id="authors" class="mt-3 fontstyle">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
